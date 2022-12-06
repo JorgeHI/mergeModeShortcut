@@ -9,6 +9,7 @@ Web: https://www.linkedin.com/in/jorgehi-vfx/
 The way you can use this command is storing the mergeOperations.py in a directory that is been reading by nuke and adding these lines in your menu.py
 
 import mergeOperations
+
 mergeOperations.installCommands()
 
 You can change the shotcut editing the installCommands function if your prefer other than ctrl + Arrows Up and Down. For example you can use alt+Up and alt+Down too.
